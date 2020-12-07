@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsibe Registion form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./responsibe/responsibe.css">
+</head>
+<body>
+    <header class="heder-section" >
+        <div class="container">
+          
+            <div class="wrapper">
+                <h2>Respnsibe Registrion Form</h2>
+               
+                <div class="form-conteniar ">
+
+                    <form>
+
+                       <div class="input-name ">
+                        <i class="fas fa-user-tie"></i>
+                        <input type="text" class="name  " placeholder="First Name">
+                        <samp ><i class="fas fa-user-tie"></i>
+                            <input type="text" class="name" placeholder="Last Name"></samp>
+                       </div> 
+
+                     
+
+
+
+
+                      <div class="input-name  overflow-hidden">
+                        <i class="fas fa-globe-americas"></i>
+
+                        <select class="country-cod">
+                            <option value="1">Country Code</option>
+                            <option value="2">+88 Bangladesh</option>
+                            <option value="2">+88 Bangladesh</option>
+                            <option value="2">+88 Bangladesh</option>
+                            <option value="2">+88 Bangladesh</option>
+                        </select>
+                       
+                        <div class="arrow2"></div>
+                        <samp>  <i class="fas fa-phone-volume"></i>
+                            <input type="numbar" placeholder="Phone Numbar" class="phone" >
+                            
+                         </samp>
+                       
+
+                      </div>
+
+                      <div class="input-name">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email" required class="test-name">
+                      </div>
+
+
+                      <div class="input-name">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" class="test-name">
+                      </div>
+
+                      
+                      <div class="input-name">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Re-type Password" class="test-name">
+                      </div>
+
+                      <div class="input-name">
+                          <input type="radio" name="radiogrop" id="ravi" class="radio-button" > 
+                          <label for="ravi" class="gander" >Male</label>
+
+                          <input type="radio" name="radiogrop" id="ravi1" class="radio-button" > 
+                          <label for="ravi1" class="gander" >Female</label>
+                      </div>
+
+                      <div class="input-name">
+                          <select name="#" id="" class="country">
+                              <option value="1">Select a Country </option>
+                              <option value="2">Bangladesh</option>
+                              <option value="3">Bangladesh</option>
+                              <option value="4">Bangladesh</option>
+                              <option value="5">Bangladesh</option>
+                              <option value="6">Bangladesh</option>
+
+                          </select>
+                          <div class="arrow" ></div>
+                      </div>
+                      <div class="input-name">
+                          <input type="checkbox" id="cd1" class="chack-button" >
+                          <label for="cd1" class="ceack"> I agree with terms and conditions</label>
+
+                      </div>
+
+                      <div class="input-name">
+                        <input type="checkbox" id="cd2" class="chack-button" >
+                        <label for="cd2" class="ceack"> I agree with terms and conditions</label>
+
+                    </div>
+                     
+                    <div class="input-name">
+                        <input class="button" type="submit" value="Register">
+                    </div>
+                    <div class="input-name">
+                        <input class="button2" type="reset" value="Reset">
+                    </div>
+
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-t6I8D5dJmMXjCsRLhSzCltuhNZg6P10kE0m0nAncLUjH6GeYLhRU1zfLoW3QNQDF" crossorigin="anonymous"></script>
+    
+    
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+
+
+</body>
+</html>
